@@ -1,4 +1,13 @@
 #container {
+    border: 10px solid black;
+    border-radius: 2%;
+    width: 600px;
+    height: 600px;
+    margin: 10px auto;
+}
+
+/*
+#container {
     position: absolute;
     z-index: 15;
     top: 30%;
@@ -6,6 +15,7 @@
     margin: -100px 0 0 -150px;
 
 }
+*/
 
 .btn {
     text-align: center;
@@ -19,13 +29,11 @@
     height: 30px;
     margin: 0 auto;
 }
-/*
-.col:hover{
-    background-color:black;
-}
-*/
+
 .row {
     display: block;
     float:left;
     width: 100%;
 }
+
+

@@ -57,3 +57,27 @@ $(document).ready(function(){
     });
 });
 */
+
+
+/*
+
+example of creating a grid
+
+//Creates grid of boxes
+function createGrid(boxesPerRow) {
+    let percentageOfGrid = 100 / boxesPerRow;
+    for (let i = 0; i < boxesPerRow; i++) {
+        let row = document.createElement('div');
+        row.classList.add('row');
+        row.setAttribute('style', `width: 100%; height: ${percentageOfGrid}%`);
+        for (let j = 0; j < boxesPerRow; j++) {
+            let box = document.createElement('div');
+            box.classList.add('box');
+            box.classList.remove('tooDark');
+            box.setAttribute('style', `background:white; width: ${percentageOfGrid}%; height: 100%; float: left`);
+            row.appendChild(box);
+        }
+        container.appendChild(row);
+    };
+};
+*/
