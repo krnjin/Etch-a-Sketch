@@ -1,0 +1,31 @@
+#container {
+    position: absolute;
+    z-index: 15;
+    top: 30%;
+    left: 42.5%;
+    margin: -100px 0 0 -150px;
+
+}
+
+.btn {
+    text-align: center;
+}
+
+.col {
+    background-color: white;
+    float: left;
+    border: black 1px solid;
+    width: 30px;
+    height: 30px;
+    margin: 0 auto;
+}
+/*
+.col:hover{
+    background-color:black;
+}
+*/
+.row {
+    display: block;
+    float:left;
+    width: 100%;
+}
