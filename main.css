@@ -1,21 +1,10 @@
 #container {
-    border: 10px solid black;
-    border-radius: 2%;
+    text-align: center;
     width: 600px;
     height: 600px;
     margin: 10px auto;
 }
 
-/*
-#container {
-    position: absolute;
-    z-index: 15;
-    top: 30%;
-    left: 42.5%;
-    margin: -100px 0 0 -150px;
-
-}
-*/
 
 .btn {
     text-align: center;
@@ -33,7 +22,8 @@
 .row {
     display: block;
     float:left;
-    width: 100%;
+    width: 30px;
+    height: 30px;
 }
 
 
